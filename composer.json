@@ -27,7 +27,7 @@
         "phpseclib/phpseclib": "~2.0",
         "doctrine/dbal": "~2.5",
         "ramsey/uuid": "^4.0",
-        "laravel/framework": "^8.0"
+        "laravel/framework": "^7.0||^8.0"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.8",
@@ -46,7 +46,8 @@
         "psr-4": {
             "Hyn\\Tenancy\\Tests\\": "tests/unit-tests/",
             "Hyn\\Tenancy\\Tests\\Extend\\": "tests/extend/",
-            "Hyn\\Tenancy\\Tests\\Traits\\": "tests/traits/"
+            "Hyn\\Tenancy\\Tests\\Traits\\": "tests/traits/",
+            "Hyn\\Tenancy\\Tests\\Seeds\\": "tests/seeds/"
         },
         "classmap": [
             "tests/Test.php"
